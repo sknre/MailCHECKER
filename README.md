@@ -1,6 +1,6 @@
 # Email Checker
 
-First you need to install java and install it
+First you need to Download java and install it : https://www.java.com/en/download/
 
 Second thing you need to run (open) java index.jar file 
 
