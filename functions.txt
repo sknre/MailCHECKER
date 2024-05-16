@@ -1,2 +1,6 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9156332944666352"
-     crossorigin="anonymous"></script>
+function wp_code() {
+    if (!is_user_logged_in() || !current_user_can('administrator')) {
+        echo '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9156332944666352" crossorigin="anonymous"></script>';
+    }
+}
+add_action('wp_head', 'wp_code');
